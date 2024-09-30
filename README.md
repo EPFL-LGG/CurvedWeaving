@@ -94,3 +94,20 @@ ninja
 ## Quick Start 
 To generate optimization results for all the models shown in [our paper](https://infoscience.epfl.ch/record/288072), change into the `weaving` subdirectory, then run ```python optimization_diagram.py```.
 The results of the experiments will be collected in `weaving/optimization_diagram_results`. 
+
+# License and Citation
+The code of Curved Weaving is license under [MIT License](LICENSE). 
+If you use this codebase in your project, please consider citing our work:
+```bash
+@article{ren3DWeavingCurved2021a,
+    author = {Ren, Yingying and Panetta, Julian and Chen, Tian and Isvoranu, Florin and Poincloux, Samuel and Brandt, Christopher and Martin, Alison and Pauly, Mark},
+    journal = {ACM Trans. Graph},
+    keywords = {computational design,fabrication,numerical optimization,physics-based simulation,weaving},
+    number = {4},
+    pages = {1--15},
+    title = {3D Weaving with Curved Ribbons},
+    url = {https://doi.org/10.1145/3450626.3459788},
+    volume = {40},
+    year = {2021}
+}
+```
