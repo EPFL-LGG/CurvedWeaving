@@ -1,0 +1,15 @@
+[submodule "3rdparty/MeshFEM"]
+	path = 3rdparty/MeshFEM
+	url = https://github.com/MeshFEM/MeshFEM_dev
+[submodule "3rdparty/RotationOptimization"]
+	path = 3rdparty/RotationOptimization
+	url = ../RotationOptimization.git
+[submodule "3rdparty/libigl"]
+	path = 3rdparty/libigl
+	url = https://github.com/jpanetta/libigl
+[submodule "3rdparty/LBFGSpp"]
+	path = 3rdparty/LBFGSpp
+	url = https://github.com/yixuan/LBFGSpp
+[submodule "3rdparty/visvalingam_simplify"]
+	path = 3rdparty/visvalingam_simplify
+	url = https://github.com/jpanetta/visvalingam_simplify

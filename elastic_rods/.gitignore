@@ -1,0 +1,15 @@
+build
+build_*
+results
+TODO
+.DS_Store
+*.so
+*.pyc
+__pycache__
+.ipynb_checkpoints
+bin/
+.vs/
+obj/
+libgrasshopper_bindings.dylib
+.vscode
+python/MeshFEM

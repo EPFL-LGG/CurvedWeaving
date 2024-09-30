@@ -1,0 +1,424 @@
+{
+    "models": [
+        {
+            "name": "sphere_1",
+            "display_name": "Sphere",
+            "thickness": 0.008246059372334916,
+            "width": 0.11780084817621309,
+            "constant_cross_section": true,
+            "cross_section_scale": [
+                0,
+                0
+            ],
+            "scale_joint_weight": "-1",
+            "update_attraction_weight": -5,
+            "number_of_updates": 3,
+            "fix_boundary": false,
+            "only_two_stage": true,
+            "num_joints": 90,
+            "num_segments": 180,
+            "num_ribbons": 10,
+            "num_sim_vars": 13230,
+            "num_design_vars": 3600
+        },
+        {
+            "name": "simple_hemoglobin_5_1",
+            "display_name": "Teardrop",
+            "thickness": 0.004937892221421775,
+            "width": 0.0705413174488825,
+            "constant_cross_section": true,
+            "cross_section_scale": [
+                0,
+                0
+            ],
+            "scale_joint_weight": "-1",
+            "update_attraction_weight": -5,
+            "number_of_updates": 3,
+            "fix_boundary": false,
+            "only_two_stage": false,
+            "num_joints": 120,
+            "num_segments": 240,
+            "num_ribbons": 12,
+            "num_sim_vars": 17640,
+            "num_design_vars": 4800
+        },
+        {
+            "name": "regular_torus_1",
+            "display_name": "Torus",
+            "thickness": 0.004098513984432921,
+            "width": 0.058550199777613166,
+            "constant_cross_section": true,
+            "cross_section_scale": [
+                0,
+                0
+            ],
+            "scale_joint_weight": "-1",
+            "update_attraction_weight": -5,
+            "number_of_updates": 3,
+            "fix_boundary": false,
+            "only_two_stage": true,
+            "num_joints": 252,
+            "num_segments": 504,
+            "num_ribbons": 16,
+            "num_sim_vars": 37044,
+            "num_design_vars": 10080
+        },
+        {
+            "name": "chicago_bean_1",
+            "display_name": "Bean",
+            "thickness": 0.0023291477477403733,
+            "width": 0.033273539253433904,
+            "constant_cross_section": true,
+            "cross_section_scale": [
+                0.5,
+                2
+            ],
+            "scale_joint_weight": "-1",
+            "update_attraction_weight": -5,
+            "number_of_updates": 3,
+            "fix_boundary": false,
+            "only_two_stage": false,
+            "num_joints": 372,
+            "num_segments": 744,
+            "num_ribbons": 14,
+            "num_sim_vars": 54684,
+            "num_design_vars": 14880
+        },
+        {
+            "name": "small_pseudo_sphere_1",
+            "display_name": "Pseudosphere",
+            "thickness": 0.0024895129586612833,
+            "width": 0.035564470838018336,
+            "constant_cross_section": true,
+            "cross_section_scale": [
+                0,
+                0
+            ],
+            "scale_joint_weight": "-1",
+            "update_attraction_weight": -5,
+            "number_of_updates": 3,
+            "fix_boundary": false,
+            "only_two_stage": true,
+            "num_joints": 264,
+            "num_segments": 506,
+            "num_ribbons": 30,
+            "num_sim_vars": 37290,
+            "num_design_vars": 10120
+        },
+        {
+            "name": "costa_1",
+            "display_name": "Costa",
+            "thickness": 0.0036772525383849146,
+            "width": 0.03677252538384915,
+            "constant_cross_section": false,
+            "cross_section_scale": [
+                0.8,
+                1.2
+            ],
+            "scale_joint_weight": "-1",
+            "update_attraction_weight": -5,
+            "number_of_updates": 3,
+            "fix_boundary": false,
+            "only_two_stage": true,
+            "num_joints": 396,
+            "num_segments": 752,
+            "num_ribbons": 48,
+            "num_sim_vars": 55452,
+            "num_design_vars": 15040
+        },
+        {
+            "name": "kleinbottle_projected_1",
+            "display_name": "Klein Bottle",
+            "thickness": 0.0012678089185242675,
+            "width": 0.036223111957836215,
+            "constant_cross_section": false,
+            "cross_section_scale": [
+                0.5,
+                1.5
+            ],
+            "scale_joint_weight": "-1",
+            "update_attraction_weight": -5,
+            "number_of_updates": 3,
+            "fix_boundary": false,
+            "only_two_stage": false,
+            "num_joints": 540,
+            "num_segments": 1080,
+            "num_ribbons": 36,
+            "num_sim_vars": 79380,
+            "num_design_vars": 21600
+        },
+        {
+            "name": "bunny_head_small_triaxial_1",
+            "display_name": "Bunny",
+            "thickness": 0.0017468608108052797,
+            "width": 0.024955154440075428,
+            "constant_cross_section": true,
+            "cross_section_scale": [
+                0,
+                0
+            ],
+            "scale_joint_weight": "-1",
+            "update_attraction_weight": -5,
+            "number_of_updates": 3,
+            "fix_boundary": false,
+            "only_two_stage": false,
+            "num_joints": 315,
+            "num_segments": 618,
+            "num_ribbons": 13,
+            "num_sim_vars": 45477,
+            "num_design_vars": 12360
+        },
+        {
+            "name": "bird_close_beak_1",
+            "display_name": "Bird",
+            "thickness": 0.0010464483949581352,
+            "width": 0.01494926278511622,
+            "constant_cross_section": true,
+            "cross_section_scale": [
+                0,
+                0
+            ],
+            "scale_joint_weight": "0.1, 100, 44",
+            "update_attraction_weight": -5,
+            "number_of_updates": 3,
+            "fix_boundary": false,
+            "only_two_stage": false,
+            "num_joints": 326,
+            "num_segments": 635,
+            "num_ribbons": 17,
+            "num_sim_vars": 46749,
+            "num_design_vars": 12700
+        },
+        {
+            "name": "new_kitty_1",
+            "display_name": "Cat A",
+            "thickness": 0.0023291477477403733,
+            "width": 0.033273539253433904,
+            "constant_cross_section": true,
+            "cross_section_scale": [
+                0,
+                0
+            ],
+            "scale_joint_weight": "0.6, 100, 214, 255, 39",
+            "update_attraction_weight": -5,
+            "number_of_updates": 3,
+            "fix_boundary": false,
+            "only_two_stage": false,
+            "num_joints": 516,
+            "num_segments": 1032,
+            "num_ribbons": 14,
+            "num_sim_vars": 75852,
+            "num_design_vars": 20640
+        },
+        {
+            "name": "kitty_level_0",
+            "display_name": "Cat B",
+            "thickness": 0.0023291477477403733,
+            "width": 0.033273539253433904,
+            "constant_cross_section": false,
+            "cross_section_scale": [
+                0.45,
+                1
+            ],
+            "scale_joint_weight": "0.6, 100, 214, 255, 39",
+            "update_attraction_weight": -5,
+            "number_of_updates": 3,
+            "fix_boundary": false,
+            "only_two_stage": false,
+            "num_joints": 516,
+            "num_segments": 1032,
+            "num_ribbons": 14,
+            "num_sim_vars": 75852,
+            "num_design_vars": 20640
+        },
+        {
+            "name": "kitty_level_1",
+            "display_name": "Cat C",
+            "thickness": 0.0023291477477403733,
+            "width": 0.033273539253433904,
+            "constant_cross_section": false,
+            "cross_section_scale": [
+                0.45,
+                1
+            ],
+            "scale_joint_weight": "-1",
+            "update_attraction_weight": -5,
+            "number_of_updates": 3,
+            "fix_boundary": false,
+            "only_two_stage": false,
+            "num_joints": 516,
+            "num_segments": 1032,
+            "num_ribbons": 14,
+            "num_sim_vars": 75852,
+            "num_design_vars": 20640
+        },
+        {
+            "name": "kitty_level_4",
+            "display_name": "Cat D",
+            "thickness": 0.0023291477477403733,
+            "width": 0.033273539253433904,
+            "constant_cross_section": false,
+            "cross_section_scale": [
+                0.4,
+                1
+            ],
+            "scale_joint_weight": "-1",
+            "update_attraction_weight": -5,
+            "number_of_updates": 3,
+            "fix_boundary": false,
+            "only_two_stage": true,
+            "num_joints": 516,
+            "num_segments": 1032,
+            "num_ribbons": 14,
+            "num_sim_vars": 75852,
+            "num_design_vars": 20640
+        },
+        {
+            "name": "kitty_level_99",
+            "display_name": "Cat E",
+            "thickness": 0.0023291477477403733,
+            "width": 0.033273539253433904,
+            "constant_cross_section": false,
+            "cross_section_scale": [
+                0.4,
+                1
+            ],
+            "scale_joint_weight": "-1",
+            "update_attraction_weight": -5,
+            "number_of_updates": 3,
+            "fix_boundary": false,
+            "only_two_stage": true,
+            "num_joints": 516,
+            "num_segments": 1032,
+            "num_ribbons": 14,
+            "num_sim_vars": 75852,
+            "num_design_vars": 20640
+        },
+        {
+            "name": "lilium_1",
+            "display_name": "Lilium",
+            "thickness": 0.0015957012207851004,
+            "width": 0.015957012207851003,
+            "constant_cross_section": true,
+            "cross_section_scale": [
+                0,
+                0
+            ],
+            "scale_joint_weight": "-1",
+            "update_attraction_weight": -5,
+            "number_of_updates": 3,
+            "fix_boundary": true,
+            "only_two_stage": false,
+            "num_joints": 488,
+            "num_segments": 932,
+            "num_ribbons": 45,
+            "num_sim_vars": 68700,
+            "num_design_vars": 18640
+        },
+        {
+            "name": "owl_1",
+            "display_name": "Owl",
+            "thickness": 0.0023291477477403733,
+            "width": 0.033273539253433904,
+            "constant_cross_section": false,
+            "cross_section_scale": [
+                1,
+                2
+            ],
+            "scale_joint_weight": "-1",
+            "update_attraction_weight": -5,
+            "number_of_updates": 3,
+            "fix_boundary": false,
+            "only_two_stage": false,
+            "num_joints": 384,
+            "num_segments": 736,
+            "num_ribbons": 32,
+            "num_sim_vars": 54240,
+            "num_design_vars": 14720
+        },
+        {
+            "name": "clam_1",
+            "display_name": "Clam",
+            "thickness": 0.0015796392004492226,
+            "width": 0.022566274292131754,
+            "constant_cross_section": true,
+            "cross_section_scale": [
+                0,
+                0
+            ],
+            "scale_joint_weight": "-1",
+            "update_attraction_weight": -5,
+            "number_of_updates": 3,
+            "fix_boundary": true,
+            "only_two_stage": false,
+            "num_joints": 674,
+            "num_segments": 1308,
+            "num_ribbons": 43,
+            "num_sim_vars": 96318,
+            "num_design_vars": 26160
+        },
+        {
+            "name": "bob_1",
+            "display_name": "Triaxial Duck (Instant Mesh)",
+            "thickness": 0.0023291477477403733,
+            "width": 0.033273539253433904,
+            "constant_cross_section": false,
+            "cross_section_scale": [
+                1,
+                1.6
+            ],
+            "scale_joint_weight": "01, 100, 198, 197, 167",
+            "update_attraction_weight": -5,
+            "number_of_updates": 3,
+            "fix_boundary": false,
+            "only_two_stage": false,
+            "num_joints": 300,
+            "num_segments": 600,
+            "num_ribbons": 5,
+            "num_sim_vars": 44100,
+            "num_design_vars": 12000
+        },
+        {
+            "name": "bob_quad_1",
+            "display_name": "Biaxial Duck (Instant Mesh)",
+            "thickness": 0.0023291477477403733,
+            "width": 0.033273539253433904,
+            "constant_cross_section": false,
+            "cross_section_scale": [
+                1,
+                1.6
+            ],
+            "scale_joint_weight": "-1",
+            "update_attraction_weight": -5,
+            "number_of_updates": 3,
+            "fix_boundary": false,
+            "only_two_stage": false,
+            "num_joints": 352,
+            "num_segments": 704,
+            "num_ribbons": 3,
+            "num_sim_vars": 51744,
+            "num_design_vars": 14080
+        },
+        {
+            "name": "ducko_v2_1",
+            "display_name": "Triaxial Duck (Designer)",
+            "thickness": 0.0023291477477403733,
+            "width": 0.033273539253433904,
+            "constant_cross_section": true,
+            "cross_section_scale": [
+                0,
+                0
+            ],
+            "scale_joint_weight": "0.01, 100, 227",
+            "update_attraction_weight": -5,
+            "number_of_updates": 3,
+            "fix_boundary": false,
+            "only_two_stage": false,
+            "num_joints": 303,
+            "num_segments": 606,
+            "num_ribbons": 10,
+            "num_sim_vars": 44541,
+            "num_design_vars": 12120
+        }
+    ]
+}

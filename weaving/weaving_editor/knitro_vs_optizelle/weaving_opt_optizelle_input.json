@@ -1,0 +1,14 @@
+{
+   "Optizelle" : {
+      "algorithm_class" : "TrustRegion",
+      "delta" : 1,
+      "dir" : "NewtonCG",
+      "eps_dx" : 0.0050000000000000001,
+      "eps_kind" : "Relative",
+      "gamma" : 0.99990000000000001,
+      "iter_max" : 50,
+      "msg_level" : 2,
+      "mu" : 0.69999999999999996,
+      "sigma" : 0.20000000000000001
+   }
+}
